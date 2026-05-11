@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de projet de science — Les Cellules, par Liam. Projet universitaire Grade 9.">
+    <title>🔬 Les Cellules — Portfolio Science | Liam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand"><span class="nav-icon">🧬</span><span class="nav-title">Les Cellules</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+            <li><a href="#slides" class="nav-link">Ce que j'ai appris</a></li>
+            <li><a href="#introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#objectifs" class="nav-link">Objectifs</a></li>
+            <li><a href="#methode" class="nav-link">Méthode</a></li>
+            <li><a href="#quiz" class="nav-link">Quiz</a></li>
+            <li><a href="#conclusion" class="nav-link">Conclusion</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🎓 Projet Universitaire — Grade 9</div>
+            <h1 class="hero-title"><span class="title-line">Les Cellules</span><span class="title-line gradient-text">Projet Bio Science</span></h1>
+            <p class="hero-subtitle">La base de toute chose vivante : découvrez le monde fascinant des cellules eucaryotes et procaryotes à travers mon projet de science.</p>
+            <div class="hero-meta">
+                <div class="meta-item"><span class="meta-icon">👤</span><span>Liam</span></div>
+                <div class="meta-item"><span class="meta-icon">📅</span><span>1er Semestre 2026</span></div>
+                <div class="meta-item"><span class="meta-icon">📚</span><span>Science Appliquée</span></div>
+                <div class="meta-item"><span class="meta-icon">🏫</span><span>Clonlara School</span></div>
+            </div>
+            <a href="#slides" class="hero-cta">Explorer le projet ↓</a>
+        </div>
+        <div class="hero-banner"><img src="images/banner.png" alt="Illustration scientifique" class="hero-image"></div>
+    </section>
+
+    <!-- ====== SLIDES : CE QUE J'AI APPRIS ====== -->
+    <section class="section section-slides" id="slides">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">COURS</span>
+                <h2 class="section-title">Ce que j'ai appris</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Naviguez entre les diapositives pour explorer mes recherches en biologie cellulaire</p>
+            </div>
+
+            <div class="slideshow">
+                <div class="slides-wrapper" id="slidesWrapper">
+
+                    <!-- SLIDE 1 -->
+                    <div class="slide active">
+                        <div class="slide-number">1 / 14</div>
+                        <div class="slide-badge">Introduction</div>
+                        <h3>Les Cellules : La Base de Toute Chose Vivante</h3>
+                        <p>Les cellules sont la base de toute chose vivante et la première unité vivante à se reproduire de façon autonome. Il existe tous types d'organismes vivants, mais tous ont minimum une cellule — cela s'appelle les <strong>organismes unicellulaires</strong>. Comparé à d'autres organismes comme nous ou une pomme, qui avons des milliards de cellules, on appelle ça des <strong>organismes multicellulaires</strong>.</p>
+                        <p>Même s'il existe différents types de cellules, elles ont toutes trois choses qui caractérisent une cellule :</p>
+                        <div class="slide-list">
+                            <div class="slide-list-item"><span class="list-bullet">1</span><strong>La membrane plasmique</strong> — c'est ce qui délimite la cellule et contrôle ce qui entre et sort.</div>
+                            <div class="slide-list-item"><span class="list-bullet">2</span><strong>Le cytoplasme</strong> — une sorte de liquide gélatineux dans lequel baignent tous les éléments de la cellule.</div>
+                            <div class="slide-list-item"><span class="list-bullet">3</span><strong>Le matériel génétique (ADN)</strong> — c'est un sorte de manuel pour la cellule qui va contenir toutes les informations héréditaires. Il change en fonction du type de cellule (peau, sang, poil, etc.).</div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 2 -->
+                    <div class="slide">
+                        <div class="slide-number">2 / 14</div>
+                        <div class="slide-badge">Classification</div>
+                        <h3>Deux Grandes Familles de Cellules</h3>
+                        <p>En biologie, on sépare les cellules en deux grandes familles : les cellules <strong>eucaryotes</strong> et <strong>procaryotes</strong>.</p>
+                        <div class="slide-compare">
+                            <div class="compare-box compare-left">
+                                <h4>Eucaryotes</h4>
+                                <p>Beaucoup plus grandes et complexes. Elles possèdent un <strong>noyau</strong> pour protéger l'ADN et contiennent plein d'organites qui ont chacun un travail précis. Taille : 10 à 100 micromètres.</p>
+                            </div>
+                            <div class="compare-box compare-right">
+                                <h4>Procaryotes</h4>
+                                <p>Bien plus petites et simples. Elles n'ont <strong>pas de noyau</strong> — l'ADN flotte librement dans le cytoplasme. Ce sont souvent des bactéries. Taille : 0.5 à 5 micromètres.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 3 -->
+                    <div class="slide">
+                        <div class="slide-number">3 / 14</div>
+                        <div class="slide-badge">Procaryotes</div>
+                        <h3>Les Cellules Procaryotes : Caractéristiques</h3>
+                        <p>Les cellules procaryotes sont les premières cellules à être apparues sur Terre. Elles se remarquent par leur taille microscopique — elles font entre <strong>0.5 et 5 micromètres</strong>, environ 15 fois plus petit que les cellules eucaryotes. Les représentants de ce type de cellule sont uniquement des organismes unicellulaires qui n'ont qu'une seule cellule autonome, très souvent des <strong>bactéries</strong> ou des <strong>archées</strong>.</p>
+                        <p>Leur grande particularité : les cellules procaryotes n'ont <strong>pas de noyau</strong>. Leur ADN se déplace librement dans le cytoplasme à l'intérieur de la membrane plasmique, regroupé dans un unique <strong>chromosome circulaire</strong>. Parfois, elles peuvent avoir des petits anneaux d'ADN supplémentaires appelés <strong>plasmides</strong>, qui contiennent parfois des gènes de résistance aux antibiotiques.</p>
+                    </div>
+
+                    <!-- SLIDE 4 -->
+                    <div class="slide">
+                        <div class="slide-number">4 / 14</div>
+                        <div class="slide-badge">Procaryotes</div>
+                        <h3>Procaryotes : Structure et Défense</h3>
+                        <p>Vue que les cellules procaryotes sont très simples en interne, elles ne possèdent pas de membrane interne ni d'organites complexes. Tu ne trouveras pas de mitochondries ni d'appareil de Golgi. En revanche, elles possèdent des <strong>ribosomes</strong> qui donnent un aspect granuleux au cytoplasme et qui fabriquent toutes les protéines à partir du code génétique.</p>
+                        <p>Pour survivre seules dans leur environnement, la membrane de ces cellules dispose d'un filtre protecteur rigide appelé la <strong>paroi cellulaire</strong>, qui empêche la cellule d'éclater et la protège. Parfois, on trouve même une couche gélatineuse supplémentaire par-dessus, appelée la <strong>capsule</strong>.</p>
+                        <div class="slide-highlight">
+                            <strong>Déplacement :</strong> Pour se déplacer, les cellules procaryotes utilisent une sorte de queue appelée <strong>flagelle</strong> qui fait des va-et-vient, un peu comme un poisson. Elles possèdent aussi des sortes de cils sur leur membrane plasmique qui permettent d'adhérer sur des surfaces et de communiquer entre elles.
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 5 -->
+                    <div class="slide">
+                        <div class="slide-number">5 / 14</div>
+                        <div class="slide-badge">Procaryotes</div>
+                        <h3>La Scissiparité : Division des Procaryotes</h3>
+                        <p>Comme les cellules procaryotes n'ont pas de noyau ni de paires de chromosomes complexes à séparer avec précaution, elles ne créent pas de mitose. Elles se divisent avec un processus rudimentaire appelé la <strong>scissiparité</strong> : la bactérie copie son chromosome et le coupe en deux simplement.</p>
+                        <div class="slide-highlight">
+                            C'est une division bien plus simple et rapide que celle des eucaryotes, ce qui explique pourquoi les bactéries peuvent se multiplier si rapidement dans un environnement favorable.
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 6 -->
+                    <div class="slide">
+                        <div class="slide-number">6 / 14</div>
+                        <div class="slide-badge">Eucaryotes</div>
+                        <h3>Les Cellules Eucaryotes : Vue d'Ensemble</h3>
+                        <p>Les cellules eucaryotes sont bien différentes des procaryotes. Il faut savoir que ce sont celles qui composent tous les êtres multicellulaires comme les humains, les pommes, etc. Les eucaryotes sont très grandes comparées aux procaryotes — elles mesurent souvent entre <strong>10 et 100 micromètres</strong>. À l'échelle microscopique, c'est très grand : elles sont en moyenne 15 fois plus grandes que les procaryotes et jusqu'à <strong>mille fois plus volumineuses</strong> qu'une bactérie classique.</p>
+                        <p>L'élément le plus important dans une cellule eucaryote est bien sûr son <strong>noyau</strong> — c'est un sorte de coffre-fort où est renfermé l'ADN pour qu'il ne se déplace pas librement dans le cytoplasme comme les procaryotes. L'ADN est rangé sous forme de multiples molécules linéaires (chromosomes) à l'intérieur du noyau, délimité par une membrane protectrice appelée l'<strong>enveloppe nucléaire</strong>.</p>
+                    </div>
+
+                    <!-- SLIDE 7 -->
+                    <div class="slide">
+                        <div class="slide-number">7 / 14</div>
+                        <div class="slide-badge">Eucaryotes</div>
+                        <h3>Les Organites : Une Grande Usine</h3>
+                        <p>Le cytoplasme d'une cellule eucaryote n'est pas vide — il est rempli et bien structuré de plein de compartiments appelés <strong>organites</strong>. Parmi eux, on peut trouver :</p>
+                        <div class="slide-list">
+                            <div class="slide-list-item"><span class="list-bullet">A</span><strong>Les mitochondries</strong> — les centrales énergétiques de la cellule. Elles utilisent l'oxygène pour décomposer les sucres et fabriquer l'énergie (une molécule appelée ATP). Elles possèdent leur propre double membrane et ADN circulaire.</div>
+                            <div class="slide-list-item"><span class="list-bullet">B</span><strong>Le réticulum endoplasmique et les ribosomes</strong> — généralement collé à l'enveloppe du noyau, c'est un grand réseau de canaux et replis. La partie rugueuse est couverte de ribosomes (les petits ouvriers qui fabriquent les protéines). La partie lisse sert à fabriquer des lipides et détoxifier la cellule.</div>
+                            <div class="slide-list-item"><span class="list-bullet">C</span><strong>L'appareil de Golgi</strong> — ressemble à une pile de sacs aplatis. Il récupère les protéines créées par le réticulum endoplasmique, leur donne les dernières modifications, puis les envoie dans la cellule ou en dehors.</div>
+                            <div class="slide-list-item"><span class="list-bullet">D</span>Chez les plantes, on retrouve aussi des <strong>vacuoles</strong> pour stocker l'eau et des <strong>chloroplastes</strong> pour faire la photosynthèse.</div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 8 -->
+                    <div class="slide">
+                        <div class="slide-number">8 / 14</div>
+                        <div class="slide-badge">Eucaryotes</div>
+                        <h3>Pluricellularité et Armure Variable</h3>
+                        <p>La <strong>pluricellularité</strong> est un sorte de pouvoir des cellules à s'adapter pour devenir quelque chose de différent en fonction de ce qui les entoure. Bien que toutes les eucaryotes ne soient pas multicellulaires (comme les levures ou les amibes), la particularité des eucaryotes est de pouvoir devenir des êtres vivants multicellulaires gigantesques et complexes, où chaque cellule se focalise sur ce qu'elle doit être — cellule de peau, globule rouge, poil, etc. C'est ce qui fait être un être vivant magnifique.</p>
+                        <div class="slide-highlight">
+                            <strong>Une armure variable :</strong> Toutes les cellules eucaryotes ont une membrane plasmique qui gère ce qui entre et sort, mais leur enveloppe externe varie. Les cellules animales n'ont aucune paroi par-dessus leur membrane, alors que les cellules végétales ont une épaisse paroi cellulaire pour leur donner cet effet rigide. Les champignons, eux, possèdent une paroi faite de chitine.
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 9 -->
+                    <div class="slide">
+                        <div class="slide-number">9 / 14</div>
+                        <div class="slide-badge">Le Noyau</div>
+                        <h3>Le Noyau et l'Enveloppe Nucléaire</h3>
+                        <p>Le noyau se trouve exclusivement dans les cellules eucaryotes. C'est un coffre-fort pour l'ADN qui se charge de la mitose et de la méiose. Il a une forme assez sphérique et ce qui le délimite est son <strong>enveloppe nucléaire</strong> — une <strong>double membrane</strong>.</p>
+                        <p>Son rôle principal est de protéger le matériel génétique des agents chimiques présents dans le cytoplasme qui pourraient l'affecter. L'enveloppe nucléaire est constituée de deux couches distinctes :</p>
+                        <div class="slide-list">
+                            <div class="slide-list-item"><span class="list-bullet">1</span><strong>La membrane externe</strong> — en continuité directe avec le réticulum endoplasmique rugueux, sa face orientée vers le cytoplasme est parsemée de ribosomes.</div>
+                            <div class="slide-list-item"><span class="list-bullet">2</span><strong>La membrane interne</strong> — tapissée du côté du noyau par un réseau de protéines appelé la <strong>lamina</strong>, qui sert de véritable charpente donnant forme et solidité au noyau.</div>
+                            <div class="slide-list-item"><span class="list-bullet">3</span><strong>L'espace périnucléaire</strong> — entre les deux membranes, un espace de 20 à 40 nanomètres qui sert notamment à stocker du calcium.</div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 10 -->
+                    <div class="slide">
+                        <div class="slide-number">10 / 14</div>
+                        <div class="slide-badge">Le Noyau</div>
+                        <h3>Les Pores Nucléaires et la Division</h3>
+                        <p>Même si le noyau est un coffre-fort, il doit quand même constamment échanger des informations avec le reste de la cellule. À intervalles irréguliers, les membranes interne et externe fusionnent pour créer des petits trous appelés <strong>pores nucléaires</strong>. Ces pores agissent comme des douanes très strictes qui permettent les échanges dans les deux sens : ils laissent sortir les copies de l'ADN (l'ARN messager) vers le cytoplasme, et laissent entrer les éléments nécessaires à la machinerie du noyau.</p>
+                        <div class="slide-highlight">
+                            <strong>Comportement durant la division cellulaire :</strong> Au moment où la cellule se prépare à diviser ses chromosomes en forme de « X », l'enveloppe nucléaire disparaît temporairement lors d'une phase appelée la <strong>prométaphase</strong>. Elle laisse ainsi les chromosomes libres de se séparer, puis elle se reconstitue à la toute fin de la division (en <strong>télophase</strong>) pour former les deux nouveaux noyaux des cellules filles.
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 11 -->
+                    <div class="slide">
+                        <div class="slide-number">11 / 14</div>
+                        <div class="slide-badge">ADN</div>
+                        <h3>La Chromatine et les Chromosomes</h3>
+                        <p>À l'intérieur du noyau, l'ADN se repose ou travaille. Normalement, l'ADN ne ressemble pas aux chromosomes en « X » — il baigne dans le noyau dans une forme gélatineuse qui ressemble à des spaghetti, qu'on appelle la <strong>chromatine</strong>. Ce n'est qu'au moment de la mitose que l'ADN va s'enrouler et s'organiser de manière à pouvoir être copié — c'est dans cette forme condensée que nous pouvons les observer au microscope.</p>
+                        <p>Les <strong>chromosomes</strong> sont de l'ADN et des protéines condensés. Ils sont le support physique des gènes (des segments d'ADN) et c'est dans eux que se trouve le matériel génétique qu'on appelle le <strong>génome</strong>, qui est propre à chaque individu. Pour que ces plusieurs milliards d'informations tiennent, elles sont compactées dans le noyau sous forme de chromosomes.</p>
+                        <p>Au centre du noyau se trouve le <strong>centre de commande</strong> (nucléole), qui donne les instructions pour la reproduction de l'ADN juste avant la division.</p>
+                    </div>
+
+                    <!-- SLIDE 12 -->
+                    <div class="slide">
+                        <div class="slide-number">12 / 14</div>
+                        <div class="slide-badge">ADN</div>
+                        <h3>Détermination des Caractères Physiques et Biologiques</h3>
+                        <p>Les chromosomes contiennent les « recettes » nécessaires à la construction de l'organisme :</p>
+                        <div class="slide-list">
+                            <div class="slide-list-item"><span class="list-bullet">1</span><strong>Les traits physiques</strong> — les gènes présents dans les chromosomes décident de votre apparence : la couleur de vos yeux, de vos poils, de votre peau, etc.</div>
+                            <div class="slide-list-item"><span class="list-bullet">2</span><strong>Le fonctionnement cellulaire</strong> — ils donnent un sorte de mode d'emploi pour fabriquer les protéines nécessaires au fonctionnement du corps et à la croissance.</div>
+                            <div class="slide-list-item"><span class="list-bullet">3</span><strong>La détermination du genre</strong> — chez l'humain, la 23ᵉ paire de chromosomes est appelée la paire de chromosomes sexuels. Chez la femme, ce sera la paire <strong>XX</strong>, tandis que chez l'homme, cela prendra la forme <strong>XY</strong>. C'est cette portion qui décide le genre de la personne dans le ventre de la femme enceinte.</div>
+                        </div>
+                        <div class="slide-highlight">
+                            Il faut noter que le nombre de chromosomes ne reflète pas l'intelligence. Exemple : la vache a 30 paires de chromosomes, nous en avons 23, la mouche en a 6. Chez les bactéries, c'est encore plus simple car un seul chromosome se balade librement dans le cytoplasme.
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 13 -->
+                    <div class="slide">
+                        <div class="slide-number">13 / 14</div>
+                        <div class="slide-badge">Division</div>
+                        <h3>Mitose et Méiose : Transmission de la Vie</h3>
+                        <p>La forme ultra compacte en « X » des chromosomes permet de distribuer l'ADN sans l'emmêler ni le casser. Ils servent à transmettre l'information génétique de deux manières :</p>
+                        <div class="slide-compare">
+                            <div class="compare-box compare-left">
+                                <h4>Mitose — Grandir et Réparer</h4>
+                                <p>Lorsque les cellules de votre peau ou de vos organes se renouvellent, les chromosomes se séparent de manière égale pour que chaque nouvelle cellule reçoive une copie exacte de vos <strong>46 chromosomes</strong>. C'est une division très sophistiquée comparée à la scissiparité des procaryotes, à cause du noyau et des nombreux chromosomes à séparer avec précision.</p>
+                            </div>
+                            <div class="compare-box compare-right">
+                                <h4>Méiose — Se Reproduire</h4>
+                                <p>Pour la génération suivante, le nombre de chromosomes est divisé par deux pour créer les cellules sexuelles appelées <strong>gamètes</strong>. Les ovules et les spermatozoïdes n'ont que 23 chromosomes chacun. Au moment de la fécondation, le bagage génétique de la mère et du père s'unit pour former un nouvel être humain complet avec 46 chromosomes, mais génétiquement <strong>unique</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 14 -->
+                    <div class="slide">
+                        <div class="slide-number">14 / 14</div>
+                        <div class="slide-badge">Cytoplasme</div>
+                        <h3>En Dehors du Noyau : Le Cytoplasme et ses Organites</h3>
+                        <p>Dès qu'on traverse les pores nucléaires, on se retrouve dans le <strong>cytoplasme</strong>, constitué d'un liquide gélatineux appelé cytosol (eau, sel, acides aminés et protéines). C'est dans ce fluide que flottent tous les autres organes indispensables de la cellule, appelés organites.</p>
+                        <div class="slide-list">
+                            <div class="slide-list-item"><span class="list-bullet">1</span><strong>Le réticulum endoplasmique et les ribosomes</strong> — Généralement collé à l'enveloppe du noyau, c'est un grand réseau de canaux et replis. Une grande partie est dite « rugueuse » car sa surface est couverte de ribosomes — les petits ouvriers de la cellule qui s'attachent là pour lire les instructions de l'ADN et fabriquer les protéines. La partie lisse sert à fabriquer des lipides et détoxifier la cellule.</div>
+                            <div class="slide-list-item"><span class="list-bullet">2</span><strong>L'appareil de Golgi</strong> — Son rôle est de récupérer les protéines créées par le réticulum endoplasmique. Cet organite ressemble un peu à une pile de sacs aplatis. Il récupère les protéines et va leur donner les dernières modifications afin de les envoyer dans la cellule ou en dehors.</div>
+                            <div class="slide-list-item"><span class="list-bullet">3</span><strong>Les mitochondries</strong> — Pour que les cellules fonctionnent correctement, il leur faut de l'énergie. Cette organite, qui possède sa propre double membrane et ADN circulaire, est le lieu de création d'énergie pour la cellule en utilisant l'oxygène pour décomposer les sucres et fabriquer l'énergie (une molécule appelée ATP).</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SLIDE CONTROLS -->
+                <div class="slide-controls">
+                    <button class="slide-btn slide-prev" id="slidePrev" aria-label="Diapositive précédente">← Précédent</button>
+                    <div class="slide-dots" id="slideDots"></div>
+                    <button class="slide-btn slide-next" id="slideNext" aria-label="Diapositive suivante">Suivant →</button>
+                </div>
+                <div class="slide-progress"><div class="slide-progress-bar" id="slideProgress"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section" id="introduction">
+        <div class="container">
+            <div class="section-header"><span class="section-number">01</span><h2 class="section-title">Introduction</h2><div class="section-line"></div></div>
+            <div class="intro-grid">
+                <div class="intro-card card-animate"><div class="card-icon">📖</div><h3>Pourquoi ce sujet ?</h3><p>J'ai choisi les cellules car ça m'a toujours fasciné qu'il y ait de la vie invisible qui est indispensable. Les cellules sont la base de toute chose vivante et la première unité vivante à se reproduire de façon autonome.</p></div>
+                <div class="intro-card card-animate"><div class="card-icon">🎯</div><h3>Deux grandes familles</h3><p>En biologie, on sépare les cellules en deux grandes familles : les <strong>eucaryotes</strong> (grandes, complexes, avec noyau) et les <strong>procaryotes</strong> (petites, simples, sans noyau). Comprendre leurs différences est au cœur de ce projet.</p></div>
+                <div class="intro-card card-animate"><div class="card-icon">💡</div><h3>Mon approche</h3><p>J'ai voulu aller en profondeur dans un seul sujet de science plutôt que survoler plusieurs. J'ai exploré le fonctionnement des cellules, leurs organites, l'ADN et les chromosomes, le tout en autodidacte via Clonlara School.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OBJECTIFS -->
+    <section class="section section-alt" id="objectifs">
+        <div class="container">
+            <div class="section-header"><span class="section-number">02</span><h2 class="section-title">Objectifs</h2><div class="section-line"></div></div>
+            <div class="objectives-list">
+                <div class="objective-item card-animate"><div class="objective-number">1</div><div class="objective-content"><h3>Comprendre les cellules</h3><p>En apprendre plus sur les cellules eucaryotes et procaryotes et comment elles fonctionnent.</p></div><div class="objective-check">✓</div></div>
+                <div class="objective-item card-animate"><div class="objective-number">2</div><div class="objective-content"><h3>Améliorer ma méthode</h3><p>Améliorer ma méthode de travail et aller en profondeur dans un seul sujet de science.</p></div><div class="objective-check">✓</div></div>
+                <div class="objective-item card-animate"><div class="objective-number">3</div><div class="objective-content"><h3>Comprendre l'ADN</h3><p>Mieux comprendre l'ADN, le génome et son importance pour la vie, la biodiversité et l'évolution.</p></div><div class="objective-check">✓</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MATÉRIEL -->
+    <section class="section" id="materiel">
+        <div class="container">
+            <div class="section-header"><span class="section-number">03</span><h2 class="section-title">Matériel Utilisé</h2><div class="section-line"></div></div>
+            <div class="material-grid">
+                <div class="material-card card-animate"><span class="material-emoji">💻</span><span>Ordinateur</span></div>
+                <div class="material-card card-animate"><span class="material-emoji">🌐</span><span>Internet</span></div>
+                <div class="material-card card-animate"><span class="material-emoji">📝</span><span>Word</span></div>
+                <div class="material-card card-animate"><span class="material-emoji">🤖</span><span>Antigravity</span></div>
+                <div class="material-card card-animate"><span class="material-emoji">🎙️</span><span>NotebookLM</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MÉTHODOLOGIE -->
+    <section class="section section-alt" id="methode">
+        <div class="container">
+            <div class="section-header"><span class="section-number">04</span><h2 class="section-title">Méthodologie</h2><div class="section-line"></div><p class="section-subtitle">Les 6 étapes de mon projet</p></div>
+            <div class="timeline">
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>1</span></div><div class="timeline-content"><h3>Compréhension</h3><p>Comprendre les cellules en elles-mêmes et leur fonctionnement de base.</p></div></div>
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>2</span></div><div class="timeline-content"><h3>Les Différences</h3><p>Comprendre les différences entre cellules eucaryotes et procaryotes et ce qui en fait des êtres si différents.</p></div></div>
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>3</span></div><div class="timeline-content"><h3>Les Procaryotes</h3><p>Explorer le monde des procaryotes et leur capacité à vivre dans les endroits les plus inhospitaliers possible.</p></div></div>
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>4</span></div><div class="timeline-content"><h3>Les Eucaryotes</h3><p>Explorer le monde des eucaryotes, comment elles fonctionnent et ce qui les rend si complexes.</p></div></div>
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>5</span></div><div class="timeline-content"><h3>Les Organites</h3><p>Explorer les organites des eucaryotes, leur fonction et comment elles fonctionnent ensemble.</p></div></div>
+                <div class="timeline-item card-animate"><div class="timeline-marker"><span>6</span></div><div class="timeline-content"><h3>L'ADN</h3><p>Explorer l'ADN, comment il fonctionne et comment il interagit avec le reste de la cellule.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIZ Q&A -->
+    <section class="section" id="quiz">
+        <div class="container">
+            <div class="section-header"><span class="section-number">05</span><h2 class="section-title">Questions & Réponses</h2><div class="section-line"></div><p class="section-subtitle">Testez vos connaissances sur les cellules !</p></div>
+            <div class="quiz-container">
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Quelle est la différence principale entre une cellule eucaryote et procaryote ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>La différence principale est la présence d'un <strong>noyau</strong>. Les eucaryotes possèdent un noyau qui protège l'ADN, tandis que les procaryotes n'en ont pas — leur ADN flotte librement dans le cytoplasme. Les eucaryotes sont aussi beaucoup plus grandes (10-100 µm vs 0.5-5 µm) et contiennent de nombreux organites spécialisés.</p></div></div>
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Quels sont les trois éléments que toutes les cellules ont en commun ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>Toutes les cellules possèdent : <strong>1)</strong> une membrane plasmique (qui contrôle les entrées/sorties), <strong>2)</strong> du cytoplasme (le liquide gélatineux intérieur), et <strong>3)</strong> du matériel génétique (ADN) qui contient les informations héréditaires.</p></div></div>
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Quel est le rôle des mitochondries dans la cellule ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>Les mitochondries sont les <strong>centrales énergétiques</strong> de la cellule. Elles utilisent l'oxygène pour décomposer les sucres et fabriquer de l'énergie sous forme d'une molécule appelée <strong>ATP</strong>. Fait intéressant : elles possèdent leur propre double membrane et ADN circulaire !</p></div></div>
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Quelle est la différence entre la mitose et la méiose ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>La <strong>mitose</strong> sert à grandir et réparer le corps : chaque nouvelle cellule reçoit une copie exacte des 46 chromosomes. La <strong>méiose</strong> sert à créer les cellules sexuelles (gamètes) : elle divise le nombre de chromosomes par 2, produisant des ovules ou spermatozoïdes avec 23 chromosomes chacun. À la fécondation, les 46 chromosomes sont réunis pour former un être unique.</p></div></div>
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Comment les procaryotes se déplacent-elles et se reproduisent-elles ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>Pour se déplacer, les procaryotes utilisent un <strong>flagelle</strong> (une sorte de queue) et des <strong>cils</strong> (pili) pour adhérer aux surfaces. Pour se reproduire, elles utilisent la <strong>scissiparité</strong> : la bactérie copie son unique chromosome circulaire puis se coupe simplement en deux. C'est beaucoup plus simple que la mitose des eucaryotes !</p></div></div>
+                <div class="qa-item card-animate"><button class="qa-question" onclick="toggleAnswer(this)"><span class="qa-icon">❓</span><span>Qu'est-ce que la chromatine et quand devient-elle un chromosome ?</span><span class="qa-arrow">▼</span></button><div class="qa-answer"><p>La <strong>chromatine</strong> est la forme « détendue » de l'ADN dans le noyau, qui ressemble à des spaghetti. Ce n'est qu'au moment de la <strong>division cellulaire</strong> que l'ADN s'enroule et se condense pour former les chromosomes en forme de « X », permettant de copier et séparer l'information génétique sans l'emmêler.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONCLUSION -->
+    <section class="section section-alt" id="conclusion">
+        <div class="container">
+            <div class="section-header"><span class="section-number">06</span><h2 class="section-title">Conclusion</h2><div class="section-line"></div></div>
+            <div class="conclusion-content card-animate">
+                <div class="conclusion-icon">🎓</div>
+                <h3>Ce que j'ai appris</h3>
+                <p>J'ai appris beaucoup de choses sur les cellules, leur fonctionnement, leurs organites, les chromosomes, l'ADN et comment tout cela s'interconnecte pour créer la vie. Ce projet m'a permis d'aller en profondeur dans un sujet qui me fascine : la vie invisible mais indispensable qui nous compose tous.</p>
+            </div>
+            <div class="sources card-animate">
+                <h3>📚 Sources & Références</h3>
+                <ul><li>NotebookLM et toutes les ressources associées</li><li>Ressources supplémentaires à fournir ultérieurement</li></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>🧬 Les Cellules — Portfolio Projet de Science</p>
+            <p class="footer-credits">Réalisé par Liam · Clonlara School · 1er Semestre 2026</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
